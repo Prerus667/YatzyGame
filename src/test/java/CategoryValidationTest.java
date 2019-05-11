@@ -1,7 +1,4 @@
-import YatzyCategories.Categories;
 import junit.framework.TestCase;
-
-import java.util.Map;
 
 public class CategoryValidationTest extends TestCase {
 

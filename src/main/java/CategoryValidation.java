@@ -1,4 +1,4 @@
-import YatzyCategories.Categories;
+import YatzyGameCategories.Categories;
 
 import java.util.Map;
 

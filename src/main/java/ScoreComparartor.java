@@ -8,9 +8,9 @@ public class ScoreComparartor implements Comparator {
         Player p1 = (Player) o1;
         Player p2 = (Player) o2;
 
-        if (p1.getScore() == p2.getScore()) {
+        if (p1.getPlayerScore() == p2.getPlayerScore()) {
             return 0;
-        } else if (p1.getScore() < p2.getScore()) {
+        } else if (p1.getPlayerScore() < p2.getPlayerScore()) {
             return -1;
 
         }

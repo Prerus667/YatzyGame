@@ -1,5 +1,5 @@
 
-import YatzyCategories.Categories;
+import YatzyGameCategories.Categories;
 
 import java.util.Map;
 import java.util.Scanner;
@@ -17,15 +17,15 @@ public class Player {
     private String playerName;
     Map<Integer, Categories> remainingCategories = Categories.getCategories();
 
-    public int getScore() {
-        return score;
+    public int getPlayerScore() {
+        return playerScore;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+    public void setPlayerScore(int score) {
+        this.playerScore = score;
     }
 
-    private int score;
+    private int playerScore;
 
     public int[] getDiceArray() {
         return diceArray;
@@ -42,7 +42,7 @@ public class Player {
         this.playerName=name;
     }
 
-    public void firstRollDice(String playerName) {
+    public void firstRollDice() {
         System.out.println(playerName + "'s turn. Click 'Roll Dice' button to roll the dice.");
         diceArray= RandomDieGenerator.randomDieValueGenerator(5);
         for (int i : diceArray)
@@ -59,7 +59,7 @@ public class Player {
             int dicesReRolled[] = new int[dicesToReRoll.length];
             for (int j = 0; j < dicesToReRoll.length; j++) {
                 dicesReRolled[j] = Integer.parseInt(String.valueOf(dicesToReRoll[j]));
-                diceArray[dicesReRolled[j] - 1] = RandomDieGenerator.randomDieValueGenerator(5)[j];
+                diceArray[dicesReRolled[j] - 1] = RandomDieGenerator.randomDieValueGenerator(dicesReRolled.length)[j];
             }
             setDiceArray(diceArray);
             for (int k : diceArray)
@@ -68,20 +68,24 @@ public class Player {
         }
     }
 
-    public void selectAndSetCategoryScore(int ...diceArray) {
+    public void selectAndSetCategoryScore() {
 
         remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
         System.out.println("Select a Category for this roll.");
         Scanner sc = new Scanner(System.in);
-        int category = sc.nextInt();
-        Categories cat = remainingCategories.get(category);
-        remainingCategories.remove(category);
-        remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
-        //throws error if user selects a category other than values present in the remaining categories
-        score = score + cat.score(diceArray);
-        setScore(score);
+        int category = 0;
+
+            category = sc.nextInt();
+            Categories cat = remainingCategories.get(category);
+            remainingCategories.remove(category);
+            remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
+            //throws error if user selects a category other than values present in the remaining categories
+            playerScore = playerScore + cat.score(diceArray);
+            setPlayerScore(playerScore);
+
 
 
     }
-}
+    }
+
 
