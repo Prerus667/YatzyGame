@@ -18,20 +18,13 @@ public class YatzyUI {
         players.add(p2);
         int score = 0;
 
-        for (int i = 1; i <= 2; i++) {
-            p1.firstRollDice();
-            p1.secondAndThirdRollDice();
-            p1.selectAndSetCategoryScore();
+        for(Player p:players) {
+            for (int i = 1; i <=15; i++) {
+                p.firstRollDice();
+                p.secondAndThirdRollDice();
+                p.selectAndSetCategoryScore();
+            }
         }
-
-
-        for (int i = 1; i <= 2; i++) {
-            p2.firstRollDice();
-            p2.secondAndThirdRollDice();
-            p2.selectAndSetCategoryScore();
-        }
-
-
         Collections.sort(players, new ScoreComparartor());
         Player winner = players.remove(1);
         System.out.println("Following is the winner of the game :" + winner.getPlayerName() + " with the score : " + winner.getPlayerScore());
