@@ -1,8 +1,7 @@
 
 import YatzyGameCategories.Categories;
 
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Player {
 
@@ -37,14 +36,13 @@ public class Player {
 
     int[] diceArray;
 
-    public Player(String name)
-    {
-        this.playerName=name;
+    public Player(String name) {
+        this.playerName = name;
     }
 
     public void firstRollDice() {
         System.out.println(playerName + "'s turn. Click 'Roll Dice' button to roll the dice.");
-        diceArray= RandomDieGenerator.randomDieValueGenerator(5);
+        diceArray = RandomDieGenerator.randomDieValueGenerator(5);
         for (int i : diceArray)
             System.out.println(i);
     }
@@ -75,16 +73,13 @@ public class Player {
         Scanner sc = new Scanner(System.in);
         int category = 0;
 
-            category = sc.nextInt();
-            Categories cat = remainingCategories.get(category);
-            remainingCategories.remove(category);
-            remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
-            //throws error if user selects a category other than values present in the remaining categories
-            playerScore = playerScore + cat.score(diceArray);
-            setPlayerScore(playerScore);
-
-
-
+        category = sc.nextInt();
+        Categories cat = remainingCategories.get(category);
+        remainingCategories.remove(category);
+        remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
+        //throws error if user selects a category other than values present in the remaining categories
+        playerScore = playerScore + cat.score(diceArray);
+        setPlayerScore(playerScore);
     }
     }
 

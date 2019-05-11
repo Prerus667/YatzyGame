@@ -19,7 +19,7 @@ public class ScoreComparatorTest  extends TestCase {
         players.add(p1);
         players.add(p2);
         Collections.sort(players,new ScoreComparartor());
-       assertEquals(10, players.get(0).getPlayerScore());
-       assertEquals(15, players.get(1).getPlayerScore());
+       assertEquals(15, players.get(0).getPlayerScore());
+       assertEquals(10, players.get(1).getPlayerScore());
     }
 }

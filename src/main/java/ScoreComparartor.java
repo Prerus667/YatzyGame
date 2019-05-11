@@ -11,9 +11,8 @@ public class ScoreComparartor implements Comparator {
         if (p1.getPlayerScore() == p2.getPlayerScore()) {
             return 0;
         } else if (p1.getPlayerScore() < p2.getPlayerScore()) {
-            return -1;
-
-        }
             return 1;
+        }
+            return -1;
         }
     }
