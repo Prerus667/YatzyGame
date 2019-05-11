@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb03d985-7b38-4bab-a661-8a390cf04d29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/YatzyGameCategories/FullHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/YatzyGameCategories/FullHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,14 +14,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/YatzyUI.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/categories/YatzyCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/YatzyConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/categories/ThreeOfAKindCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/categories/ThreesCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/categories/TwoPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/PlayGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/categories/TwosCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/categories/ThreeOfAKindCategoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/categories/ThreesCategoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -66,22 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FoursCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FullHouse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LargeStraight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OnesCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScorePair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SixCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SmallStraight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreeOfAKindCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ThreesCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Two_Pair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TwosCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Categories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/YatzyCategories/YatzyCategories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/YatzyCategories/ChanceCategory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TwosCategoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChanceCategoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FiveCategoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FourOfAKindCategoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FoursCategoryTest.java" />
@@ -112,11 +183,27 @@
         <option value="$PROJECT_DIR$/src/main/java/YatzyCategories/FullHouse.java" />
         <option value="$PROJECT_DIR$/src/test/java/YatzyCategories/FullHouseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/YatzyGameCategories/Categorical.java" />
-        <option value="$PROJECT_DIR$/src/main/java/YatzyUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ScoreComparartor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScoreComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/YatzyGameCategories/FullHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CategoryValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YatzyUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/YatzyGameCategories/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScoreComparartor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ScoreComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/YatzyUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/InputValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/YatzyConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/PlayGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/FourOfAKindCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/FullHouse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/LargeStraight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/ScorePair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/SmallStraight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/ThreeOfAKindCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/TwoPair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/categories/YatzyCategory.java" />
       </list>
     </option>
   </component>
@@ -137,10 +224,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="1043" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,7 +268,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="YatzyGameCategories" type="462c0819:PsiDirectoryNode" />
+              <item name="categories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YatzyGameDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YatzyGameDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YatzyGameDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YatzyGameDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YatzyGameDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YatzyGameDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="YatzyGameDevelopment" type="b2602c69:ProjectViewProjectNode" />
@@ -188,15 +300,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="YatzyGameDevelopment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YatzyGameDevelopment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558703368123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559130783253" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -215,6 +333,8 @@
       <recent name="C:\Users\ehrespa\enm\YatzyGameDevelopment\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="player" />
+      <recent name="" />
       <recent name="YatzyCategories" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -236,30 +356,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScoreComparatorTest.testCompare">
-    <configuration name="FullHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YatzyGameCategories.FullHouse" />
+  <component name="RunManager" selected="JUnit.ThreeOfAKindCategoryTest.testScore">
+    <configuration name="FourOfAKindCategoryTest.testScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YatzyGameDevelopment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="YatzyGameCategories.*" />
+          <option name="PATTERN" value="categories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Player" />
-      <module name="YatzyGameDevelopment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YatzyUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YatzyUI" />
-      <module name="YatzyGameDevelopment" />
+      <option name="PACKAGE_NAME" value="categories" />
+      <option name="MAIN_CLASS_NAME" value="categories.FourOfAKindCategoryTest" />
+      <option name="METHOD_NAME" value="testScore" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,23 +377,61 @@
       <module name="YatzyGameDevelopment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="YatzyGameCategories.*" />
+          <option name="PATTERN" value="categories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="YatzyGameCategories" />
-      <option name="MAIN_CLASS_NAME" value="YatzyGameCategories.FullHouseTest" />
+      <option name="PACKAGE_NAME" value="categories" />
+      <option name="MAIN_CLASS_NAME" value="categories.FullHouseTest" />
       <option name="METHOD_NAME" value="testScore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreComparatorTest.testCompare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargeStraightTest.testScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="YatzyGameDevelopment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScoreComparatorTest" />
-      <option name="METHOD_NAME" value="testCompare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="categories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="categories" />
+      <option name="MAIN_CLASS_NAME" value="categories.LargeStraightTest" />
+      <option name="METHOD_NAME" value="testScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScorePairTest.testScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YatzyGameDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="categories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="categories" />
+      <option name="MAIN_CLASS_NAME" value="categories.ScorePairTest" />
+      <option name="METHOD_NAME" value="testScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeOfAKindCategoryTest.testScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YatzyGameDevelopment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="categories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="categories" />
+      <option name="MAIN_CLASS_NAME" value="categories.ThreeOfAKindCategoryTest" />
+      <option name="METHOD_NAME" value="testScore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +439,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ScoreComparatorTest.testCompare" />
-        <item itemvalue="Application.YatzyUI" />
-        <item itemvalue="Application.Player" />
+        <item itemvalue="JUnit.ThreeOfAKindCategoryTest.testScore" />
+        <item itemvalue="JUnit.ScorePairTest.testScore" />
+        <item itemvalue="JUnit.LargeStraightTest.testScore" />
         <item itemvalue="JUnit.FullHouseTest.testScore" />
-        <item itemvalue="Application.FullHouse" />
+        <item itemvalue="JUnit.FourOfAKindCategoryTest.testScore" />
       </list>
     </recent_temporary>
   </component>
@@ -314,24 +461,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FullHouseTest - 2019.05.22 at 12h 39m 53s.xml">
-      <configuration name="FullHouseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullHouseTest_testScore - 2019.05.22 at 12h 54m 06s.xml">
-      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullHouseTest_testScore - 2019.05.22 at 12h 57m 02s.xml">
-      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullHouseTest_testScore - 2019.05.22 at 13h 05m 10s.xml">
-      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullHouseTest_testScore - 2019.05.22 at 13h 33m 33s.xml">
-      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FullHouseTest_testScore - 2019.05.22 at 13h 39m 31s.xml">
-      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FullHouseTest_testScore - 2019.05.22 at 13h 41m 36s.xml">
       <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
     </history-entry>
@@ -344,12 +473,29 @@
     <history-entry file="ScoreComparatorTest_testCompare - 2019.05.24 at 14h 09m 31s.xml">
       <configuration name="ScoreComparatorTest.testCompare" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CategoryValidationTest_testValidateChoice - 2019.05.24 at 15h 18m 38s.xml">
+      <configuration name="CategoryValidationTest.testValidateChoice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FourOfAKindCategoryTest_testScore - 2019.05.29 at 10h 03m 35s.xml">
+      <configuration name="FourOfAKindCategoryTest.testScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FullHouseTest_testScore - 2019.05.29 at 10h 04m 41s.xml">
+      <configuration name="FullHouseTest.testScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargeStraightTest_testScore - 2019.05.29 at 10h 05m 47s.xml">
+      <configuration name="LargeStraightTest.testScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScorePairTest_testScore - 2019.05.29 at 10h 06m 55s.xml">
+      <configuration name="ScorePairTest.testScore" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeOfAKindCategoryTest_testScore - 2019.05.29 at 10h 08m 32s.xml">
+      <configuration name="ThreeOfAKindCategoryTest.testScore" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24777327" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35060728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -357,14 +503,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.092362344" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6021314" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39431617" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5168739" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11722913" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.49023092" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.5506217" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.43339255" />
@@ -378,7 +524,7 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24939272" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27206478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23481782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -386,14 +532,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39431617" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24866785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.10479574" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.5506217" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.43339255" />
@@ -421,7 +567,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/SixCategoryTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/categories/SixCategoryTest.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -434,7 +580,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/YahtzeeConstants.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/YahtzeeGame.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -449,7 +594,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/YahtzeeInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Yahtzee.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/FiveCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/FiveCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
@@ -459,27 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/FourOfAKindCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/LargeStraightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/OnesCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/OnesCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -489,17 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/ScorePairTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/SixCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/SixCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -509,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/SmallStraightTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/SmallStraightTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -519,17 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/ThreeOfAKindCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/ThreesCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/TwosCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
@@ -539,17 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/TwosCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/Two_PairTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/TwoPairTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -559,7 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/YatzyCategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/YatzyCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
@@ -569,215 +664,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/FullHouseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CategoryValidationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/CategoryValidation.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="179">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/FoursCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/YatzyGameCategories/ChanceCategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScoreComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CategoryValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/Categorical.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/Categorical.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/Categories.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/player/ScoreComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/ChanceCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/InputValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/FiveCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/RandomDieGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/YatzyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/ChanceCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/ScoreComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/FourOfAKindCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/FourOfAKindCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/FiveCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/FourOfAKindCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/ChanceCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/FoursCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/Categories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/FoursCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/FoursCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/FullHouse.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/FullHouseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/LargeStraight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/OnesCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/ScorePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/SixCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/FullHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/LargeStraight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/LargeStraightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/ScorePairTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/ScorePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/SixCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/SmallStraight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/ThreeOfAKindCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/Two_Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/TwosCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/OnesCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/YatzyCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/SmallStraight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CategoryValidation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/ThreeOfAKindCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyGameCategories/ThreesCategory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/categories/ThreesCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/TwosCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/ThreeOfAKindCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/ThreesCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/TwoPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PlayGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomDieGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/categories/YatzyCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ScoreComparartor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/YatzyConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/YatzyUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="-105">
+          <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
