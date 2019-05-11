@@ -1,0 +1,33 @@
+
+csquid:UnusedPrivateMethod"2Remove this unused private "firstRollDice" method.(ƒìêáýÿÿÿÿ8•±®ù­-
+lsquid:UnusedPrivateMethod";Remove this unused private "secondAndThirdRollDice" method.(Éœßîûÿÿÿÿ8•±®ù­-
+jsquid:UnusedPrivateMethod+">Remove this unused private "selectAndSetCategoryScore" method.(ÁçÖµ8•±®ù­-
+[squid:S1197"8Move the array designator from the variable to the type.(­µ¬ùþÿÿÿÿ8•±®ù­-
+Vsquid:S1197"8Move the array designator from the variable to the type.(¸çâí8•±®ù­-
+Ksquid:S1068	".Remove this unused "playerName" private field.(ÿ®åB8•±®ù­-
+Lsquid:S1068")Remove this unused "score" private field.(µŽ¼æÿÿÿÿÿ8•±®ù­-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(€²Œˆþÿÿÿÿ8•±®ù­-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ8•±®ù­-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â‰¢Ù8•±®ù­-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹¶™¬üÿÿÿÿ8•±®ù­-
+[
+squid:S106&"9Replace this use of System.out or System.err by a logger.(æ–Ý€ÿÿÿÿÿ8•±®ù­-
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Ø¶‹æûÿÿÿÿ8•±®ù­-
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(³¿÷Ð8•±®ù­-
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Ø¶‹æûÿÿÿÿ8•±®ù­-
+V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(³¿÷Ð8•±®ù­-
+V
+squid:S106@"9Replace this use of System.out or System.err by a logger.(ÖÊÊä8•±®ù­-
+gsquid:HiddenFieldCheck1"9Rename "score" which hides the field declared at line 11.(ç‡ÖŸüÿÿÿÿ8•±®ù­-
+Msquid:S14811"*Remove this unused "score" local variable.(ç‡ÖŸüÿÿÿÿ8•±®ù­-
+Lsquid:S2140")Use "java.util.Random.nextInt()" instead.(üÄ›Õùÿÿÿÿ8•±®ù­-
+Gsquid:S2140"")Use "java.util.Random.nextInt()" instead.(£Ä¸ä8•±®ù­-
+\squid:S18541"9Remove this useless assignment to local variable "score".(ç‡ÖŸüÿÿÿÿ8•±®ù­-

@@ -6,22 +6,50 @@ import java.util.Scanner;
 
 public class Player {
 
+    public String getPlayerName() {
+        return playerName;
+    }
+
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
+    }
+
     private String playerName;
-    private static Map<Integer, Categories> remainingCategories = Categories.getCategories();
+    Map<Integer, Categories> remainingCategories = Categories.getCategories();
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
     private int score;
+
+    public int[] getDiceArray() {
+        return diceArray;
+    }
+
+    public void setDiceArray(int[] diceArray) {
+        this.diceArray = diceArray;
+    }
+
     int[] diceArray;
 
-    private void firstRollDice(String playerName) {
+    public Player(String name)
+    {
+        this.playerName=name;
+    }
+
+    public void firstRollDice(String playerName) {
         System.out.println(playerName + "'s turn. Click 'Roll Dice' button to roll the dice.");
-        for (int l = 0; l < 5; l++) {              // 5 dice each turn
-            int diceRollNumber = (int) (Math.random() * 6 + 1);
-            diceArray[l] = diceRollNumber;
-        }
+        diceArray= RandomDieGenerator.randomDieValueGenerator(5);
         for (int i : diceArray)
             System.out.println(i);
     }
 
-    private void secondAndThirdRollDice() {
+    public void secondAndThirdRollDice() {
         for (int i = 0; i < 2; i++) {
             System.out.println("Select the dice you wish to re-roll");  // 3 turns
             System.out.println("Enter the die position separated by ,");
@@ -31,37 +59,29 @@ public class Player {
             int dicesReRolled[] = new int[dicesToReRoll.length];
             for (int j = 0; j < dicesToReRoll.length; j++) {
                 dicesReRolled[j] = Integer.parseInt(String.valueOf(dicesToReRoll[j]));
-                diceArray[dicesReRolled[j] - 1] = (int) (Math.random() * 6 + 1);
+                diceArray[dicesReRolled[j] - 1] = RandomDieGenerator.randomDieValueGenerator(5)[j];
             }
-
+            setDiceArray(diceArray);
             for (int k : diceArray)
                 System.out.println(k);
 
         }
     }
 
-    private void selectAndSetCategoryScore(int[] diceArray) {
+    public void selectAndSetCategoryScore(int ...diceArray) {
+
+        remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
         System.out.println("Select a Category for this roll.");
         Scanner sc = new Scanner(System.in);
         int category = sc.nextInt();
         Categories cat = remainingCategories.get(category);
         remainingCategories.remove(category);
-        int score = cat.score(diceArray);
-
-    }
-
-    public static void main(String[] args) {
         remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
-        int score=0;
-        for (int i = 1; i <= 3; i++) {
-            System.out.println("Select a Category for this roll.");
-            Scanner sc = new Scanner(System.in);
-            int category = sc.nextInt();
-            Categories cat = remainingCategories.get(category);
-            remainingCategories.remove(category);
-            remainingCategories.forEach((key, value) -> System.out.println(key + ":" + value.getName(key)));
-            score = score + cat.score(1, 2, 4, 3, 3);
-            System.out.println(score);
-        }
+        //throws error if user selects a category other than values present in the remaining categories
+        score = score + cat.score(diceArray);
+        setScore(score);
+
+
     }
 }
+
